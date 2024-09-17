@@ -23,10 +23,10 @@ Next I provide some background information to explain code blocks.
       cv2.rectangle – the function draws a rectangle in the image. Initial coordinates (x, y), final coordinates (x+150, y-25), rectangle color is black (0, 0, 0), thickness is "-1" to fill with color completely.\
       cv2.putText – the function adds a string of the text in the image. str(area) – string format conversion; (x, y) – coordinates of the bottom-left corner of the text string in the image; cv2.FONT_HERSHEY_SIMPLEX – font type; 1.0 – font scale factor; text color; thickness of the line in pixels.
 # Proportion calculator
-# 0. Open prop.py program
-# 1. The proportion calculator function
+## 0. Open prop.py program
+## 1. The proportion calculator function
    The try/except construct is used to avoid an error during program execution.
-# 2. The denominator setting
+## 2. The denominator setting
    Enter the value of the reference sample area.
-# 3. The interface elements building
+## 3. The interface elements building
    The utility required to convert the area obtained in pixels to other units of measurement is created here.
